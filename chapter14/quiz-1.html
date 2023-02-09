@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>4의 배수일까 아닐까</title>
+</head>
+<body>
+	<h2>4의 배수일까 아닐까</h2>
+
+	<script>
+        var number = prompt("숫자를 입력하시오.") // 프롬프트 문을 이용하여 숫자를 입력받음.
+        if (number != null) { //취소 버튼을 누르면 결과를 보여주지 않도록
+            if (number %4 == 0)  //4로 나누어떨어지면 4의 배수, 나누어떨어지지 않으면 4의 배수가 아님을 출력
+                document.write(number+"는 4의 배수입니다.");
+            else 
+                document.write(number+"는 4의 배수가 아닙니다.");
+        }
+	</script>
+</body>
+</html>
